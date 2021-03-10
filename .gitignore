@@ -1,0 +1,10 @@
+# Maintained by jemo from 2020.5.25 to now
+# Created by jemo on 2020.5.25 11:12:47
+# Config
+
+# database config
+# const dbUrl = "user:user#db@/db?parseTime=true&loc=Local"
+database/config.go
+
+# .swp
+*.swp
