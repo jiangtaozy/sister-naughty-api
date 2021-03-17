@@ -6,5 +6,9 @@
 # const dbUrl = "user:user#db@/db?parseTime=true&loc=Local"
 database/config.go
 
+# handle config
+# const jwtKey = "jwtKey"
+handle/config.go
+
 # .swp
 *.swp
