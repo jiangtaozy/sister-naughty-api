@@ -17,6 +17,7 @@ var DB *sql.DB
 func InitDB() {
   ConnectDB()
   //execSQL(createUser)
+  //execSQL(createImageBrowseRecord)
 }
 
 func ConnectDB() {

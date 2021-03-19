@@ -22,6 +22,7 @@ func main() {
   handle.InitWechat()
   mux := http.NewServeMux()
   mux.HandleFunc("/mainImagesList", handle.MainImagesList)
+  mux.HandleFunc("/mainImageBrowseRecord", handle.MainImageBrowseRecord)
   mux.HandleFunc("/wechat", handle.Wechat)
   mux.HandleFunc("/oauth", handle.Oauth)
   mux.HandleFunc("/jwt", handle.Jwt)
